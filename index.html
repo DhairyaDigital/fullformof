@@ -6,55 +6,7 @@
   <meta name="keywords" content="abbreviation search, full forms of abbreviations, abbreviation meanings">
   <meta name="author" content="Full Form of">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-
-    .container {
-      max-width: 600px;
-      margin: 20px auto;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    input[type="text"] {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 10px;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin-bottom: 10px;
-    }
-
-    li {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 5px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
@@ -62,57 +14,6 @@
     <input type="text" id="searchInput" placeholder="Enter an abbreviation...">
     <ul id="searchResults"></ul>
   </div>
-
-  <script>
-    const abbreviations = [
-      { abbreviation: "HTML", fullForm: "HyperText Markup Language" },
-      { abbreviation: "CSS", fullForm: "Cascading Style Sheets" },
-      { abbreviation: "JS", fullForm: "JavaScript" },
-      { abbreviation: "API", fullForm: "Application Programming Interface" },
-      { abbreviation: "URL", fullForm: "Uniform Resource Locator" },
-      // Add more abbreviations and full forms here
-      { abbreviation: "DBMS", fullForm: "Database Management System" },
-      { abbreviation: "XML", fullForm: "eXtensible Markup Language" },
-      { abbreviation: "GUI", fullForm: "Graphical User Interface" },
-      { abbreviation: "SMTP", fullForm: "Simple Mail Transfer Protocol" },
-      { abbreviation: "HTTP", fullForm: "Hypertext Transfer Protocol" },
-      // Add more abbreviations and full forms here
-      { abbreviation: "SSL", fullForm: "Secure Sockets Layer" },
-      { abbreviation: "API", fullForm: "Application Programming Interface" },
-      { abbreviation: "CMS", fullForm: "Content Management System" },
-      { abbreviation: "FTP", fullForm: "File Transfer Protocol" },
-      { abbreviation: "RAM", fullForm: "Random Access Memory" },
-      { abbreviation: "PDF", fullForm: "Portable Document Format" },
-      { abbreviation: "SQL", fullForm: "Structured Query Language" },
-      { abbreviation: "AJAX", fullForm: "Asynchronous JavaScript and XML" },
-      { abbreviation: "RSS", fullForm: "Really Simple Syndication" },
-      { abbreviation: "API", fullForm: "Application Programming Interface" }
-      // Add more abbreviations and full forms here
-    ];
-
-    function searchAbbreviations() {
-      const searchInput = document.getElementById("searchInput").value.toLowerCase();
-      const searchResults = document.getElementById("searchResults");
-      searchResults.innerHTML = "";
-
-      if (searchInput.trim() !== "") {
-        const matchingAbbreviations = abbreviations.filter(abbr => abbr.abbreviation.toLowerCase().includes(searchInput));
-
-        if (matchingAbbreviations.length > 0) {
-          matchingAbbreviations.forEach(abbr => {
-            const listItem = document.createElement("li");
-            listItem.textContent = `${abbr.abbreviation}: ${abbr.fullForm}`;
-            searchResults.appendChild(listItem);
-          });
-        } else {
-          const listItem = document.createElement("li");
-          listItem.textContent = "No results found.";
-          searchResults.appendChild(listItem);
-        }
-      }
-    }
-
-    document.getElementById("searchInput").addEventListener("input", searchAbbreviations);
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,26 @@
+[
+    { "abbreviation": "HTML", "fullForm": "HyperText Markup Language" },
+    { "abbreviation": "CSS", "fullForm": "Cascading Style Sheets" },
+    { "abbreviation": "JS", "fullForm": "JavaScript" },
+    { "abbreviation": "API", "fullForm": "Application Programming Interface" },
+    { "abbreviation": "URL", "fullForm": "Uniform Resource Locator" },
+    
+    { "abbreviation": "DBMS", "fullForm": "Database Management System" },
+    { "abbreviation": "XML", "fullForm": "eXtensible Markup Language" },
+    { "abbreviation": "GUI", "fullForm": "Graphical User Interface" },
+    { "abbreviation": "SMTP", "fullForm": "Simple Mail Transfer Protocol" },
+    { "abbreviation": "HTTP", "fullForm": "Hypertext Transfer Protocol" },
+    
+    { "abbreviation": "SSL", "fullForm": "Secure Sockets Layer" },
+    { "abbreviation": "API", "fullForm": "Application Programming Interface" },
+    { "abbreviation": "CMS", "fullForm": "Content Management System" },
+    { "abbreviation": "FTP", "fullForm": "File Transfer Protocol" },
+    { "abbreviation": "RAM", "fullForm": "Random Access Memory" },
+    { "abbreviation": "PDF", "fullForm": "Portable Document Format" },
+    { "abbreviation": "SQL", "fullForm": "Structured Query Language" },
+    { "abbreviation": "AJAX", "fullForm": "Asynchronous JavaScript and XML" },
+    { "abbreviation": "RSS", "fullForm": "Really Simple Syndication" },
+    { "abbreviation": "API", "fullForm": "Application Programming Interface" }
+   
+  ]
+  
